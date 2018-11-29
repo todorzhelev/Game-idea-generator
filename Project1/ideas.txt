@@ -9,7 +9,7 @@ simulator
 collecting coins
 saving princess
 saving children
-zombies
+zombies (minions LoL)
 Match-3(order)
 brutal
 strategy
@@ -18,3 +18,7 @@ heroes
 explorer
 growth (level up, scale, stronger)
 social (team, communication)
+shop
+PvE (jungle LoL)
+PvP
+spells
