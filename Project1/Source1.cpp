@@ -83,8 +83,8 @@ int main() {
 
 	int *comb, i, n, k;
 
-	n = 20; /* The size of the set; for {1, 2, 3, 4} it's 4 */
-	k = 11; /* The size of the subsets; for {1, 2}, {1, 3}, .. it's 2 */
+	n = 25; /* The size of the set; for {1, 2, 3, 4} it's 4 */
+	k = 15; /* The size of the subsets; for {1, 2}, {1, 3}, .. it's 2 */
 
 	if (k > n) {
 		printf("invalid input \n");
@@ -102,12 +102,15 @@ int main() {
 	printc(comb, k);
 
 	/* Generate and print all the other combinations */
+	int currentComb = 0;
 	while (next_comb(comb, k, n))
 	{
+		printf("Current combination: %d \n", currentComb);
 		printc(comb, k);
+		++currentComb;
 	}
 
-	delete comb;
+	//delete comb;
 
 	std::unordered_map<int, std::string> ideasMap;
 

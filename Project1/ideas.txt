@@ -1,5 +1,5 @@
 tower defense
-racer
+racer (mounts)
 auction
 pokemons(babies)
 survival
@@ -29,3 +29,5 @@ fantasy
 fiction
 reality
 pillaging - killing and taking loot
+transformation/metamorphosis (bigger/smaller scale, new form)
+attacker/defender
